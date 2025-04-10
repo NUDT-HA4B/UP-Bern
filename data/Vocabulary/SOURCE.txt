@@ -1,0 +1,2 @@
+UMLS 2024AA: https://www.nlm.nih.gov/research/umls/licensedcontent/umlsarchives04.html  (size~5GB)
+
