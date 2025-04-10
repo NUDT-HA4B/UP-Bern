@@ -24,10 +24,10 @@ pip install -r requirements.txt
 
 The four datasets used in this project are:
 
-1. **BC2GM** - [Download link](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2008-9-s2-s3)
-2. **BC4CHEMD** - [Download link](https://www.sciencedirect.com/science/article/pii/S1532046413001974?via%3Dihub)
-3. **BC5CDR** - [Download link](https://academic.oup.com/database/article/doi/10.1093/database/baw068/2630414)
-4. **NCBI** - [Download link](https://www.sciencedirect.com/science/article/pii/S1532046413001974?via%3Dihub)
+1. **BC2GM (BioCreative II)** - [Download link](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2008-9-s2-s3)
+2. **BC4CHEMD (BioCreative IV)** - [Download link](https://www.sciencedirect.com/science/article/pii/S1532046413001974?via%3Dihub)
+3. **BC5CDR (BioCreative V)** - [Download link](https://academic.oup.com/database/article/doi/10.1093/database/baw068/2630414)
+4. **NCBI (National Center for Biotechnology Information Disease Corpus)** - [Download link](https://www.sciencedirect.com/science/article/pii/S1532046413001974?via%3Dihub)
 
 These datasets are all derived from **PubMed abstracts** and are used for biomedical entity recognition tasks.
 
@@ -41,23 +41,6 @@ The following table outlines the different entities included in each of the four
 | **BC4CHEMD**| Chemicals, Diseases                  |
 | **BC5CDR**  | Chemicals, Diseases                  |
 | **NCBI**    | Diseases, Disorders                  |
-
-### 1. **BC2GM (BioCreative II)**:
-   - **Entities**: Gene mentions
-   - **Description**: This dataset is used for identifying **gene mentions** in biomedical text (specifically, PubMed abstracts). It contains annotated instances where gene names are mentioned in the context of scientific papers. The dataset includes both **protein** and **non-protein** gene names.
-
-### 2. **BC4CHEMD (BioCreative IV)**:
-   - **Entities**: Chemicals, Diseases
-   - **Description**: This dataset focuses on recognizing **chemical** and **disease** entities. The goal is to identify mentions of chemicals and diseases from PubMed abstracts and map them to their corresponding entities. It includes entities like drug names, chemical compounds, diseases, and related biomedical terminologies.
-
-### 3. **BC5CDR (BioCreative V)**:
-   - **Entities**: Chemicals, Diseases
-   - **Description**: This dataset is used for **chemical-disease relationship extraction**. It involves two main entity types: **chemicals** (e.g., drugs, chemical compounds) and **diseases** (e.g., medical conditions). The task is to recognize the mentions of chemicals and diseases and also predict the relationships between them.
-
-### 4. **NCBI (National Center for Biotechnology Information Disease Corpus)**:
-   - **Entities**: Diseases, Disorders
-   - **Description**: The NCBI dataset is focused on **disease** mentions. It provides annotated data for recognizing **diseases** and **disorders** from scientific literature, particularly from PubMed abstracts. This dataset is useful for tasks like disease named entity recognition (NER) and classification.
-
 
 ## UMLS Dictionary
 
