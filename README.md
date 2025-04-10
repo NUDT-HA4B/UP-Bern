@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository implements the source code for the paper **"UP-Bern: A Unified Progressive Transition Framework for Biomedical Entity Recognition and Normalization"**. The framework leverages **PubMedBERT** and integrates **UMLS** for biomedical entity recognition and normalization. It identifies biomedical terms from PubMed abstracts and maps them to **UMLS** concepts using either a local database or an API for querying.
+This repository implements the source code for the paper **"UP-Bern: A Unified Progressive Transition Framework for Biomedical Entity Recognition and Normalization"**.
 
 ## Requirements
 
@@ -24,9 +24,17 @@ pip install -r requirements.txt
 
 The four datasets used in this project are:
 
-1. **BC2GM** - [Download link](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2008-9-s2-s3)
+1. **BC2GM** - [Download link](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2008-9-s2-s3
+        
+        
+        
+        )
 2. **BC4CHEMD** - [Download link](https://www.sciencedirect.com/science/article/pii/S1532046413001974?via%3Dihub)
-3. **BC5CDR** - [Download link](https://academic.oup.com/database/article/doi/10.1093/database/baw068/2630414)
+3. **BC5CDR** - [Download link](https://academic.oup.com/database/article/doi/10.1093/database/baw068/2630414
+        
+        
+        
+        )
 4. **NCBI** - [Download link](https://www.sciencedirect.com/science/article/pii/S1532046413001974?via%3Dihub)
 
 These datasets are all derived from **PubMed abstracts** and are used for biomedical entity recognition tasks.
