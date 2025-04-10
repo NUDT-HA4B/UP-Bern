@@ -44,15 +44,13 @@ The following table outlines the different entities included in each of the four
 
 ## UMLS Dictionary
 
-### Two Methods for UMLS Access:
+The code allows you to choose between **local database** and **API** querying by setting `QUERY_METHOD` in the `utils.py` file.
+
 1. **Local Database**: We provide a local SQLite database (`umls.db`). You can download it from the repository or create it yourself from the official UMLS distribution.
 
    - **Local Database Setup**: Follow the instructions in the `utils.py` file to set up the local database.
 
 2. **UMLS API**: You can use the UMLS API by registering for an API key at [UMLS API](https://uts.nlm.nih.gov/). Once registered, you will need to replace the API key, username, and passphrase in `utils.py`.
-
-### Querying Methods:
-- The code allows you to choose between **local database** and **API** querying by setting `QUERY_METHOD` in the `utils.py` file.
 
 ## Search Strategies
 
