@@ -42,15 +42,15 @@ The following table outlines the different entities included in each of the four
 | **BC5CDR**  | Chemicals, Diseases                  |
 | **NCBI**    | Diseases, Disorders                  |
 
-### 1. **BC2GM (BioCreative II Gene Mention)**:
+### 1. **BC2GM (BioCreative II)**:
    - **Entities**: Gene mentions
    - **Description**: This dataset is used for identifying **gene mentions** in biomedical text (specifically, PubMed abstracts). It contains annotated instances where gene names are mentioned in the context of scientific papers. The dataset includes both **protein** and **non-protein** gene names.
 
-### 2. **BC4CHEMD (BioCreative IV Chemical Disease)**:
+### 2. **BC4CHEMD (BioCreative IV)**:
    - **Entities**: Chemicals, Diseases
    - **Description**: This dataset focuses on recognizing **chemical** and **disease** entities. The goal is to identify mentions of chemicals and diseases from PubMed abstracts and map them to their corresponding entities. It includes entities like drug names, chemical compounds, diseases, and related biomedical terminologies.
 
-### 3. **BC5CDR (BioCreative V Chemical Disease Relationship)**:
+### 3. **BC5CDR (BioCreative V)**:
    - **Entities**: Chemicals, Diseases
    - **Description**: This dataset is used for **chemical-disease relationship extraction**. It involves two main entity types: **chemicals** (e.g., drugs, chemical compounds) and **diseases** (e.g., medical conditions). The task is to recognize the mentions of chemicals and diseases and also predict the relationships between them.
 
